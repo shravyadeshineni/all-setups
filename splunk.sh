@@ -1,0 +1,8 @@
+#splunk installation
+ cd /opt/
+ wget -O splunk-9.0.1-82c987350fde-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.0.1/linux/splunk-9.0.1-82c987350fde-Linux-x86_64.tgz"
+ tar xvzf splunk-<version>-<build>.tgz
+ cd splunk
+ cd bin
+ sudo ./splunk start --accept-license
+ sudo ./splunk enable boot-start
